@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand cricket game</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id = "game">
+    <h1>Hand cricket game🏏</h1>
+    <h2 id="toss">It's toss time</h2>
+    <div id="buttons">
+        <button onclick="performToss('head')">Heads</button>
+        <button onclick="performToss('tail')">Tails</button>
+    </div>
+    <div id="result"></div>
+
+    <div id="battingOrBowling" style="display: none;">        
+        <p>Please select your choice:</p>
+        <button id="battingBtn">Batting</button>
+        <button id="bowlingBtn">Bowling</button>
+    </div>
+    <div id="next" style="display: none;">
+        <button onclick="next()">Next</button>
+    </div> 
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-style: italic;
+    background-image: url(./images/image\ 6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-style: italic;
+}
+
+#target {
+    margin: 0;
+    font-style: italic;
+}
+
+button {
+    background-color: hsla(180, 100%, 50%, 0.877);
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 80px; 
+    height: 80px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: hsla(180, 100%, 30%, 0.877);
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#result {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#next button {
+    background-color: hsla(180, 100%, 50%, 0.877);
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100px;
+    height: 55px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#next button:hover {
+    background-color: hsla(180, 100%, 30%, 0.877);
+}
+
+#next {
+    display: none;
+}
+
+#game {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    button {
+        width: 60px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    #next button {
+        width: 80px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    button {
+        width: 60px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #next button {
+        width: 70px;
+        height: 40px;
+        font-size: 10px;
+		
+    }
+
+    #result {
+        font-size: 20px;
+    }
+}

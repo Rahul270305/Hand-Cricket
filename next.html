@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket match</title>
+    <link rel="stylesheet" href="next.css">
+</head>
+<body>
+    <div id = "game">
+    <h1>You vs Computer</h1>
+    <h2 id="heading">First innings - You are batting!🏏</h2>
+    <div id="buttons">
+        <button onclick="run(1)">1️⃣</button>
+        <button onclick="run(2)">2️⃣</button>
+        <button onclick="run(3)">3️⃣</button>
+        <button onclick="run(4)">4️⃣</button>
+        <button onclick="run(5)">5️⃣</button>
+        <button onclick="run(6)">6️⃣</button>
+    </div>
+
+    <h2>Score: <span id="score">0</span></h2>
+    <div id="target"></div>
+    <div id="comments"></div>
+    <div id="achievement"></div>
+    <div id="playerChoice"></div> 
+    <div id="computerChoice"></div> 
+    <div id="result"></div>
+
+    <div id="next">
+        <button onclick="next()">New game</button>
+    </div>
+    </div>
+    <script src="next.js"></script>
+</body>
+</html>
+
